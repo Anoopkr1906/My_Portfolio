@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Skills() {
+function Projects() {
   return (
     <div className='flex items-center justify-center h-screen bg-gradient-to-r from-blue-900 to-purple-900'>
       
@@ -8,4 +8,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Projects
