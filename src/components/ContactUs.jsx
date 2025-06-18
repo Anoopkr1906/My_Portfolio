@@ -70,7 +70,7 @@ export default function ContactMe() {
             {status === "pending" ? "Sending..." : "Send Message"}
           </button>
           {status === "success" && (
-            <p className="text-green-600 text-center mt-2">Thank you! Your message has been sent.</p>
+            <p className="text-gray-800 text-center text-2xl mt-2">Thank you! Your message has been sent.</p>
           )}
           {status === "error" && (
             <p className="text-red-600 text-center mt-2">Oops! Something went wrong. Try again.</p>

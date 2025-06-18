@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import AnoopImg from '../assets/images/img2.jpg';
 
 const sectionVariant = {
   hidden: { opacity: 0, y: 40 },
@@ -29,6 +30,19 @@ const studies = [
 export default function AboutMe() {
   return (
     <div className='flex items-center justify-center flex-col h-screen bg-gradient-to-r from-blue-900 to-purple-900 p-4'>
+      <div className="flex flex-row items-center justify-center w-full max-w-5xl gap-16">
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, type: 'spring' }}
+          className="flex-shrink-0"
+        >
+        <img
+          src={AnoopImg}
+          alt="Anoop"
+          className="w-96 h-96 rounded-3xl object-cover shadow-2xl border-4 border-white hover:border-amber-200"
+        />
+      </motion.div>
       <motion.div
         initial="hidden"
         animate="visible"
@@ -105,6 +119,7 @@ export default function AboutMe() {
           </ul>
         </motion.section>
       </motion.div>
+      </div>
     </div>
   );
 }
