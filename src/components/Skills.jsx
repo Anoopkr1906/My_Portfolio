@@ -163,7 +163,7 @@ const skills = [
   { name: "Node.js", color: "bg-green-600", icon: "🟩" },
   { name: "CSS", color: "bg-blue-300", icon: "🎨" },
   { name: "Tailwind CSS", color: "bg-teal-400", icon: "🌬️" },
-  { name: "Next.js", color: "bg-gray-900", icon: "🧭" },
+  { name: "Next.js", color: "bg-pink-700", icon: "🧭" },
   { name: "Express.js", color: "bg-gray-700", icon: "🚂" },
   // Add more as needed
 ];
