@@ -28,7 +28,15 @@ function ProfileCard() {
           <div className='flex flex-col items-center  justify-center text-center text-black space-y-4 p-6 animate-bounce hover:animate-none'
             style={{ fontFamily: "Fondamento , cursive" }}>
             <p className='m-2 text-4xl'>ANOOP KUMAR BURNWAL</p>
-            <p className='m-2 text-2xl'>An Undergrad Student at NIT JSR :) </p>
+            <p className='m-2 text-2xl'>An Undergrad Student at NIT JSR  *_*</p>
+            <br />
+            <br />
+            <p><b>Experience</b></p>
+            <ul>
+              <li>🟨 Web team - Team INNOREVA, Best tech team at NIT JSR.</li>
+              <li>🟩 Web team - Research and Consultancy Club, Best tech team at NIT JSR.</li>
+              <li>🧭 Web team and EM Team - Soft Skills Club, Best tech team at NIT JSR.</li>
+            </ul>
           </div>
           <div class="w-108 h-108 rounded-full bg-cover bg-center border-3 border-amber-800 animate-pulse hover:animate-none" style={{ backgroundImage: `url(${AnoopImg})` }}>
           </div>
@@ -42,8 +50,8 @@ function ProfileCard() {
         </div>
         <div className='m-4 text-black animate-pulse hover:animate-none'
           style={{ fontFamily: "Caparsimo" }}>
-          <p className='m-2 text-3xl'>⭐  This is a place where I showcase my skills, projects, and experiences. Feel free to explore and connect with me!</p>
-          <p className='m-2 text-3xl'>⭐  I am passionate about web development, programming, and continuous learning.</p>
+          <p className='m-2 text-2xl'>⭐  This is a place where I showcase my skills, projects, and experiences. Feel free to explore and connect with me!</p>
+          <p className='m-2 text-2xl'>⭐  I am passionate about web development, programming, and continuous learning.</p>
         </div>
 
     </div>

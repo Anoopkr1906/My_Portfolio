@@ -165,10 +165,12 @@ const skills = [
   { name: "Tailwind CSS", color: "bg-teal-400", icon: "🌬️" },
   { name: "Next.js", color: "bg-pink-700", icon: "🧭" },
   { name: "Express.js", color: "bg-gray-700", icon: "🚂" },
+  { name: "Mongo-DB", color: "bg-red-700", icon: "🚂" },
+  { name: "C++", color: "bg-purple-700", icon: "🧭" },
   // Add more as needed
 ];
 
-const CIRCLE_RADIUS = 220; // px, distance from center to each skill
+const CIRCLE_RADIUS = 250; // px, distance from center to each skill
 
 function polarToCartesian(angle, r) {
   const theta = (angle * Math.PI) / 180;
